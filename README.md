@@ -9,11 +9,11 @@ CLIP: [https://github.com/OpenAI/CLIP](https://github.com/OpenAI/CLIP)
 TOME: [https://github.com/facebookresearch/tome](https://github.com/facebookresearch/tome)
 
 ## CLIP with efficient vision tower
-**Before TOME**
-![ori_res](assets/ori_res.png)
+### Before TOME:
+<img src="assets/ori_res.png" width="50%">
 
-**After TOME with 1.78x throughput**
-![r16_res](assets/r16_res.png)
+### After TOME with 1.78x throughput:
+<img src="assets/r16_res.png" width="50%">
 
 ## Summary
 In my experiments, TOME does indeed help accelerate the vision tower in Clip, but applying TOME to the text tower results in completely disastrous outcomes.
