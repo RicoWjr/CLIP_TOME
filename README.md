@@ -20,6 +20,6 @@ TOME: [https://github.com/facebookresearch/tome](https://github.com/facebookrese
 </div>
 
 ## Summary
-In my experiments, TOME does indeed help accelerate the vision tower in Clip, but applying TOME to the text tower results in completely disastrous outcomes.
+In my experiments, TOME does indeed help accelerate the vision tower in CLIP, but applying TOME to the text tower results in completely disastrous outcomes.
 
- A reasonable explanation is that *text lacks the redundancy present in images, thus merging tokens leads to the loss of important information*.
+A reasonable explanation is that *text lacks the redundancy present in images, thus merging tokens leads to the loss of important information*.
